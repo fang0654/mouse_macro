@@ -1,0 +1,1 @@
+{"1": "xdotool key Return", "2": "/usr/local/bin/do_screenshot.sh", "3": "dbus-send --session --type=method_call --dest=org.gnome.Shell /org/gnome/Shell org.gnome.Shell.Eval string:'Main.overview.show();'", "4": "/usr/local/bin/select-window.py --reverse", "5": "/usr/local/bin/select-window.py --forward", "6": "", "7": ""}

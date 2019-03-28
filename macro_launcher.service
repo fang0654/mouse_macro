@@ -1,0 +1,8 @@
+[Unit]
+Description=Service to execute macros from Razer mouse
+[Service]
+Type=simple
+TimeoutStartSec=0
+ExecStart=/usr/local/bin/macro_launcher.py
+[Install]
+WantedBy=default.target
