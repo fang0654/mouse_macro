@@ -1,1 +1,16 @@
-{"1": "xdotool key Return", "2": "/usr/local/bin/do_screenshot.sh", "3": "dbus-send --session --type=method_call --dest=org.gnome.Shell /org/gnome/Shell org.gnome.Shell.Eval string:'Main.overview.show();'", "4": "/usr/local/bin/select-window.py --reverse", "5": "/usr/local/bin/select-window.py --forward", "6": "", "7": ""}
+{"usb-Razer_Razer_Naga_Trinity_00000000001A-if02-event-kbd": {
+    "1": "xdotool key Return", 
+    "2": "/usr/local/bin/do_screenshot.sh", 
+    "3": "qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut ShowDesktopGrid", 
+    "4": "/usr/local/bin/select-window.py --reverse", 
+    "5": "/usr/local/bin/select-window.py --forward", 
+    "6": "", 
+    "7": ""
+    }, 
+"usb-Logitech_G502_HERO_Gaming_Mouse_0281396E3131-if01-event-kbd": {
+    "1": "/usr/local/bin/do_screenshot.sh", 
+    "2": "/usr/local/bin/show_screenshots.sh", 
+    "3": "qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut ShowDesktopGrid", 
+    "4": ""
+    }
+}
